@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
+body {
+  background-color: #faf5f5;
+}
+
+.container {
+  padding: 50px;
+  width: 600px;
+  margin: 15vw auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  color: grey;
+  border-radius: 60px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+#suggestion {
+  height: 50px;
+  margin: 50px 0;
+  color: green;
+  font-size: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
